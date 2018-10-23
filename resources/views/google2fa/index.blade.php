@@ -17,7 +17,6 @@
                                 <input id="one_time_password" type="number" class="form-control" name="one_time_password" required autofocus>
                             </div>
                         </div>
-
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">

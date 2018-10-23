@@ -26,6 +26,7 @@ class HomeController extends Controller
 
     public function index() {
         $ip= trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"));
+        # IP DE ESPAÑA PARA PROBAR
         //$ip = "2.136.0.0";
         $data = \Location::get($ip);
         if (!empty($data)) {
